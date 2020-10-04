@@ -1,0 +1,11 @@
+%% Ireland 1996 Q7
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+It suffices to show $\sum_{n=1}^\infty n/2^n = 2$:
+
+$$
+\sum_{n=1}^\infty \frac{n}{2^n} = \sum_{n=1}^\infty \sum_{k=n}^\infty \frac{1}{2^k} = \sum_{n=1}^\infty \frac{1}{2^{n-1}} = 2
+$$
+

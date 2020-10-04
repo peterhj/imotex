@@ -1,0 +1,11 @@
+%% Ireland 1996 Q4
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+Let $F$ be the midpoint of side $BC$ of triangle $ABC$.
+
+Construct isosceles right triangles $ABD$ and $ACE$ externally on sides $AB$ and $AC$ with the right angles at $D$ and $E$, respectively.
+
+Show that $DEF$ is an isosceles right triangle.
+

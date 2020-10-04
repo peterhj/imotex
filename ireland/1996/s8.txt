@@ -1,0 +1,13 @@
+%% Ireland 1996 Q8
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+If $p=2$, we have $2^2+3^2=13$ and $n=1$. If $p>2$, then $p$ is odd, so 5 divides $2^p + 3^p$ and so 5 divides $a$. Now if $n>1$, then 25 divides $a^n$ and 5 divides
+
+$$
+\frac{2^p+3^p}{2+3} = 2^{p-1} - 2^{p-2}\cdot3 + \cdots + 3^{p-1} \equiv p2^{p-1} \Mod{5},
+$$
+
+a contradiction if $p \neq 5$. Finally, if $p=5$, then $2^5 + 3^5 = 753$ is not a perfect power, so $n=1$ again.
+

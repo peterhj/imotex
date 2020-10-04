@@ -1,0 +1,11 @@
+%% Ireland 1996 Q8
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+Let $p$ be a prime number and $a, n$ positive integers. Prove that if
+
+$$2^p + 3^p = a^n,$$
+
+then $n=1$.
+

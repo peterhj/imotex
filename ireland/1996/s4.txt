@@ -1,0 +1,9 @@
+%% Ireland 1996 Q4
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+Identifying $A, B, C$ with numbers on the complex plane, we have $F=(B+C)/2$, $D=B+(A-B)r$, $E=A+(C-A)r$, where $r=(1+i)/2$.
+
+Then $E-F = A(1-i)/2 - B/2 + Ci/2$ and $D-F = A(1+i)/2 - Bi/2 - C/2$; in particular, $D-F = i(E-F)$ and so $DEF$ is an isosceles right triangle.
+

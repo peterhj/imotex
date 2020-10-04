@@ -1,0 +1,11 @@
+%% Ireland 1996 Q3
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+If $y>x$, then $f(y) \geq f(x) + f(y-x)$, so $f$ is increasing. We note that $f(2^{-k}) \leq 2^{-k}$ by induction on $k$ (with base case $k=0$), as $2f(2^{-k}) \leq f(2^{-(k-1)})$.
+
+Thus for $x>0$, let $k$ be the positive integer such that $2^{-k} < x < 2^{-(k-1)}$; then $f(x) \leq f(2^{-(k-1)}) \leq 2^{-(k-1)} < 2x$.
+
+Since $f(0) + f(1) \leq f(1)$, we have $f(0)=0$ and so $f(x) \leq 2x$ in all cases.
+

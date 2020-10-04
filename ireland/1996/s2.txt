@@ -1,0 +1,9 @@
+%% Ireland 1996 Q2
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+It is clear that $S(a+b) \leq S(a) + S(b)$, with equality if and only if there are no carries in the addition of $a$ and $b$. Therefore $S(2n) \leq 2S(n)$. Similarly $S(2n) \leq 5S(10n) = 5S(n)$.
+
+An example with $S(n) = 1996S(3n)$ is $133\cdots35$ (with 5968 threes).
+

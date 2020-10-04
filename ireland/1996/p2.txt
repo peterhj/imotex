@@ -1,0 +1,11 @@
+%% Ireland 1996 Q2
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+For each positive integer $n$, let $S(n)$ be the sum of the digits in the decimal expansion of $n$. Prove that for all $n$,
+
+$$S(2n) \leq 2S(n) \leq 10S(2n)$$
+
+and show that there exists $n$ such that $S(n) = 1996S(3n)$.
+

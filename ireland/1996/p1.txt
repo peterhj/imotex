@@ -1,0 +1,7 @@
+%% Ireland 1996 Q1
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+For each positive integer $n$, find the greatest common divisor of $n!+1$ and $(n+1)!$.
+

@@ -1,0 +1,9 @@
+%% Ireland 1996 Q7
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+Prove that for all positive integers $n$,
+
+$$2^{1/2} \cdot 4^{1/4} \cdots (2^n)^{1/2^n} < 4.$$
+

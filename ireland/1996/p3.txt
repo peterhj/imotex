@@ -1,0 +1,13 @@
+%% Ireland 1996 Q3
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+Let $f: \[0, 1\] \rightarrow \mathbb{R}$ be a function such that
+
+(i) $f(1) = 1,
+(ii) $f(x) \geq 0$ for all $x \in \[0, 1\]$,
+(iii) if $x, y$ and $x+y$ all lie in $\[0, 1\]$, then $f(x+y) \geq f(x) + f(y)$.
+
+Prove that $f(x) \leq 2x$ for all $x \in \[0, 1\]$.
+

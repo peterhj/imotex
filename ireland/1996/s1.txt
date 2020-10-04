@@ -1,0 +1,7 @@
+%% Ireland 1996 Q1
+%% From "Mathematical Contests 1996-1997", compiled by Titu Andreescu and Kiran Kedlaya
+%% transcribed by: David Shin
+%% license: CC-BY-SA
+
+If $n+1$ is composite, then each prime divisor of $(n+1)!$ is a prime less than $n$, which also divides $n!$ and so does not divide $n!+1$. Hence $f(n)=1$. If $n+1$ is prime, the same argument shows that $f(n)$ is a power of $n+1$, and in fact $n+1|n!+1$ by Wilson's theorem. However, $(n+1)^2$ does not divide $(n+1)!$, and thus $f(n)=n+1$.
+
