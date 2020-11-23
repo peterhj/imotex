@@ -95,10 +95,11 @@ class BufItem(Item, metaclass=ABCMeta):
 
 
 class LatexTokenizer:
-    def __init__(self):
+    def __init__(self, emit_digits=False):
         self.stack: List[Item] = [Items.Text('')]
         self.mode: Mode = Mode.Text
         self.toks: List[LatexToken] = []
+        self.emit_digits: bool = emit_digits
 
     def buf_commit(self, item: BufItem):
         if not item.buf: return
@@ -130,6 +131,10 @@ class LatexTokenizer:
             # math-mode can ignore whitespace
             self.enqueue(math_item)
         elif c.isnumeric():
+            if self.emit_digits:
+                self.commit(LatexTokens.from_char(c, True))
+                self.enqueue(math_item)
+                return
             self.commit_text(''.join(math_item.buf))
             self.enqueue(math_item)
             self.commit(LatexTokens.from_char(c, True))
@@ -425,9 +430,9 @@ class Items:
 
 
 class LatexDocument:
-    def __init__(self, text: str):
+    def __init__(self, text: str, emit_digits=False):
         self.text = text
-        tokenizer = LatexTokenizer()
+        tokenizer = LatexTokenizer(emit_digits)
         tokenizer.tokenize(text)
         self.toks = tokenizer.toks
 
@@ -437,5 +442,6 @@ if __name__ == '__main__':
     with open(filename) as f:
         text = f.read()
     doc = LatexDocument(text)
+    #doc = LatexDocument(text, True)
     print('\n'.join(map(str, doc.toks)))
 
